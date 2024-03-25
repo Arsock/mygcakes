@@ -6,4 +6,14 @@
 }
 body{
   background: #F9F9F9;
+  padding: 0 60px;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #DF1F4D;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar {
+  width: 6px;
 }
